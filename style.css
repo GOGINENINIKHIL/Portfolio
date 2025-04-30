@@ -189,6 +189,48 @@ span {
     margin: 2rem 0 3rem;
 }
 
+
+.experience h2 {
+    margin-bottom: 5rem;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;
+    gap: 2rem*/
+}
+
+.experience-container .experience-box {
+    flex: 1 1 30rem;
+    background-color: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--snd-bf-color);
+    transition: .5s ease;
+}
+
+.experience-container .experience-box:hover {
+    border-color: var(--text-color);
+    transform: scale(1.02);
+}
+
+.experience-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+
+}
+
+.experience-box h3 {
+    font-size: 2.6rem;
+}
+
+.experience-box p {
+    font-size: 2.6rem;
+}
+
 /*.skills {
     padding: 0 50px;
     margin-bottom: 100px;
